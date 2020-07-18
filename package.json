@@ -1,0 +1,17 @@
+{
+  "name": "@beaunus123/eslint-config",
+  "version": "1.0.0",
+  "description": "ESLint config",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "github.com/beaunus/eslint-config"
+  },
+  "author": "beau@beaunus.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/beaunus/eslint-config/issues"
+  },
+  "homepage": "https://github.com/beaunus/eslint-config#readme"
+}
