@@ -23,5 +23,9 @@
     "eslint-plugin-prettier": "^3",
     "prettier": "^2.0.5",
     "typescript": "^3.9.7"
+  },
+  "devDependencies": {
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.11"
   }
 }
