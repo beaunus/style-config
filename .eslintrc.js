@@ -26,6 +26,7 @@ module.exports = {
     ],
     "no-shadow": "warn",
     "no-unused-vars": "error",
+    "prefer-const": "error",
     "sort-keys": "warn",
     yoda: "error",
   },
