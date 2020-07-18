@@ -16,17 +16,17 @@ module.exports = {
   rules: {
     "@typescript-eslint/explicit-function-return-type": "off",
     "@typescript-eslint/no-use-before-define": "off",
-    "no-shadow": "warn",
-    "sort-keys": "warn",
-    "no-unused-vars": "error",
     "import/order": [
       "error",
       {
-        alphabetize: { order: "asc", caseInsensitive: true },
+        alphabetize: { caseInsensitive: true, order: "asc" },
         groups: ["builtin", "external", "parent", "sibling", "index"],
         "newlines-between": "always",
       },
     ],
+    "no-shadow": "warn",
+    "no-unused-vars": "error",
+    "sort-keys": "warn",
     yoda: "error",
   },
 };
