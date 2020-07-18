@@ -13,5 +13,18 @@
   "bugs": {
     "url": "https://github.com/beaunus/eslint-config/issues"
   },
-  "homepage": "https://github.com/beaunus/eslint-config#readme"
+  "homepage": "https://github.com/beaunus/eslint-config#readme",
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": ">= 3",
+    "@typescript-eslint/parser": ">= 3",
+    "eslint": ">= 7",
+    "eslint-config-prettier": ">= 6",
+    "eslint-plugin-import": ">= 2",
+    "eslint-plugin-prettier": ">= 3"
+  },
+  "dependencies": {
+    "@typescript-eslint/parser": "^3.6.1",
+    "eslint": "^7.4.0",
+    "typescript": "^3.9.7"
+  }
 }
