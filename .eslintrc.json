@@ -8,12 +8,17 @@
     "plugin:import/typescript",
     "plugin:import/warnings",
     "plugin:jest/all",
-    "plugin:prettier/recommended"
+    "plugin:prettier/recommended",
+    "plugin:react/recommended"
   ],
   "ignorePatterns": ["**/dist/*"],
   "parser": "@typescript-eslint/parser",
-  "parserOptions": { "ecmaVersion": 2020 },
-  "plugins": ["@typescript-eslint", "import", "jest"],
+  "parserOptions": {
+    "ecmaFeatures": { "jsx": true },
+    "ecmaVersion": 2020,
+    "project": "./tsconfig.json"
+  },
+  "plugins": ["@typescript-eslint", "import", "jest", "react"],
   "root": true,
   "rules": {
     "@typescript-eslint/explicit-function-return-type": "off",
@@ -71,5 +76,8 @@
     "sort-keys": "warn",
     "yoda": "error"
   },
-  "settings": { "jsdoc": { "mode": "typescript" } }
+  "settings": {
+    "jsdoc": { "mode": "typescript" },
+    "react": { "version": "detect" }
+  }
 }
