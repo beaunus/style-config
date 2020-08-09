@@ -18,7 +18,34 @@
   "rules": {
     "@typescript-eslint/explicit-function-return-type": "off",
     "@typescript-eslint/explicit-module-boundary-types": "off",
+    "@typescript-eslint/naming-convention": [
+      "error",
+      { "format": ["camelCase"], "selector": "default" },
+      {
+        "format": ["camelCase", "PascalCase", "UPPER_CASE"],
+        "selector": "variable"
+      },
+      {
+        "format": ["camelCase"],
+        "leadingUnderscore": "allow",
+        "selector": "parameter"
+      },
+      {
+        "format": ["camelCase"],
+        "leadingUnderscore": "require",
+        "modifiers": ["private"],
+        "selector": "memberLike"
+      },
+      { "format": ["PascalCase"], "selector": "typeLike" },
+      {
+        "format": ["PascalCase"],
+        "prefix": ["is", "should", "has", "can", "did", "will"],
+        "selector": "variable",
+        "types": ["boolean"]
+      }
+    ],
     "@typescript-eslint/no-use-before-define": "off",
+    "camelcase": "off",
     "import/order": [
       "error",
       {
@@ -27,6 +54,8 @@
         "newlines-between": "always"
       }
     ],
+    "jest/lowercase-name": "off",
+    "jest/prefer-expect-assertions": "off",
     "no-else-return": "error",
     "no-lonely-if": "error",
     "no-negated-condition": "error",
@@ -41,5 +70,6 @@
     "require-await": "error",
     "sort-keys": "warn",
     "yoda": "error"
-  }
+  },
+  "settings": { "jsdoc": { "mode": "typescript" } }
 }
