@@ -1,3 +1,3 @@
 module.exports = {
-  eslint: require("./.eslintrc.js"),
+  eslint: require("./.eslintrc.json"),
 };

@@ -1,29 +1,31 @@
-module.exports = {
-  env: { es6: true, node: true },
-  extends: [
-    "plugin:prettier/recommended",
+{
+  "env": { "es6": true, "jest": true, "node": true },
+  "extends": [
     "eslint:recommended",
     "plugin:@typescript-eslint/eslint-recommended",
     "plugin:@typescript-eslint/recommended",
     "plugin:import/errors",
-    "plugin:import/warnings",
     "plugin:import/typescript",
+    "plugin:import/warnings",
+    "plugin:jest/all",
+    "plugin:prettier/recommended"
   ],
-  parser: "@typescript-eslint/parser",
-  parserOptions: { ecmaVersion: 2020 },
-  plugins: ["@typescript-eslint", "import"],
-  root: true,
-  rules: {
+  "ignorePatterns": ["**/dist/*"],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": { "ecmaVersion": 2020 },
+  "plugins": ["@typescript-eslint", "import", "jest"],
+  "root": true,
+  "rules": {
     "@typescript-eslint/explicit-function-return-type": "off",
     "@typescript-eslint/explicit-module-boundary-types": "off",
     "@typescript-eslint/no-use-before-define": "off",
     "import/order": [
       "error",
       {
-        alphabetize: { caseInsensitive: true, order: "asc" },
-        groups: ["builtin", "external", "parent", "sibling", "index"],
-        "newlines-between": "always",
-      },
+        "alphabetize": { "caseInsensitive": true, "order": "asc" },
+        "groups": ["builtin", "external", "parent", "sibling", "index"],
+        "newlines-between": "always"
+      }
     ],
     "no-else-return": "error",
     "no-lonely-if": "error",
@@ -38,6 +40,6 @@ module.exports = {
     "require-atomic-updates": "error",
     "require-await": "error",
     "sort-keys": "warn",
-    yoda: "error",
-  },
-};
+    "yoda": "error"
+  }
+}
