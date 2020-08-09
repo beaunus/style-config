@@ -1,19 +1,19 @@
 {
-  "name": "@beaunus/eslint-config",
-  "version": "1.0.4",
-  "description": "ESLint config",
+  "name": "@beaunus123/style-config",
+  "version": "1.0.1",
+  "description": "style config",
   "main": "index.js",
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "github.com/beaunus/eslint-config"
+    "url": "github.com/beaunus/style-config"
   },
   "author": "beau@beaunus.com",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/beaunus/eslint-config/issues"
+    "url": "https://github.com/beaunus/style-config/issues"
   },
-  "homepage": "https://github.com/beaunus/eslint-config#readme",
+  "homepage": "https://github.com/beaunus/style-config#readme",
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^3",
     "@typescript-eslint/parser": "^3.6.1",
