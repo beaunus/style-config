@@ -32,7 +32,6 @@ module.exports = {
     "no-shadow": "warn",
     "no-throw-literal": "error",
     "no-unneeded-ternary": "error",
-    "no-unused-vars": "error",
     "object-shorthand": "error",
     "prefer-const": "error",
     "prefer-template": "error",
