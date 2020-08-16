@@ -72,6 +72,7 @@
     "object-shorthand": "error",
     "prefer-const": "error",
     "prefer-template": "error",
+    "react/jsx-sort-props": "error",
     "require-atomic-updates": "error",
     "require-await": "error",
     "sort-keys": "warn",
