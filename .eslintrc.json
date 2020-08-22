@@ -71,6 +71,7 @@
     "no-unneeded-ternary": "error",
     "object-shorthand": "error",
     "prefer-const": "error",
+    "no-param-reassign": ["error", { "props": true }],
     "prefer-template": "error",
     "react/jsx-sort-props": "error",
     "require-atomic-updates": "error",
