@@ -74,6 +74,7 @@
     "no-param-reassign": ["error", { "props": true }],
     "prefer-template": "error",
     "react/jsx-sort-props": "error",
+    "react/prop-types": "off",
     "require-atomic-updates": "error",
     "require-await": "error",
     "sort-keys": "warn",
