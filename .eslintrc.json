@@ -50,6 +50,7 @@
         "types": ["boolean"]
       }
     ],
+    "@typescript-eslint/no-shadow": "warn",
     "@typescript-eslint/no-use-before-define": "off",
     "camelcase": "off",
     "import/order": [
@@ -66,7 +67,7 @@
     "no-lonely-if": "error",
     "no-negated-condition": "error",
     "no-return-await": "error",
-    "no-shadow": "warn",
+    "no-shadow": "off",
     "no-throw-literal": "error",
     "no-unneeded-ternary": "error",
     "object-shorthand": "error",
