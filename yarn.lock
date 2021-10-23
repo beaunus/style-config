@@ -607,6 +607,11 @@ eslint-plugin-react@^7.22.0:
     resolve "^1.18.1"
     string.prototype.matchall "^4.0.2"
 
+eslint-plugin-sort-exports@^0.6.0:
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-sort-exports/-/eslint-plugin-sort-exports-0.6.0.tgz#837aba10228c863f0c575c8b73f9ff6d18b85f97"
+  integrity sha512-NMFUDPL6jVkTiGR698sv6nNEM/cA7CzSJaeIDdBnzkyj8ZYe7eFvcaxLSSSSouikQaxZQukVd74CIQ2sggbrtg==
+
 eslint-scope@^5.0.0, eslint-scope@^5.1.1:
   version "5.1.1"
   resolved "https://registry.npmjs.org/eslint-scope/-/eslint-scope-5.1.1.tgz"

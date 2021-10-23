@@ -18,7 +18,7 @@
     "ecmaVersion": 2020,
     "project": "./tsconfig.json"
   },
-  "plugins": ["@typescript-eslint", "import", "jest", "react"],
+  "plugins": ["@typescript-eslint", "import", "jest", "react", "sort-exports"],
   "root": true,
   "rules": {
     "@typescript-eslint/explicit-function-return-type": "off",
@@ -78,6 +78,7 @@
     "react/prop-types": "off",
     "require-atomic-updates": "error",
     "require-await": "error",
+    "sort-exports/sort-exports": ["error", { "sortDir": "asc" }],
     "sort-keys": "warn",
     "yoda": "error"
   },
