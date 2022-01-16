@@ -9,7 +9,8 @@
     "plugin:import/warnings",
     "plugin:jest/all",
     "plugin:prettier/recommended",
-    "plugin:react/recommended"
+    "plugin:react/recommended",
+    "plugin:typescript-sort-keys/recommended"
   ],
   "ignorePatterns": ["**/dist/*"],
   "parser": "@typescript-eslint/parser",
@@ -18,7 +19,14 @@
     "ecmaVersion": 2020,
     "project": "./tsconfig.json"
   },
-  "plugins": ["@typescript-eslint", "import", "jest", "react", "sort-exports"],
+  "plugins": [
+    "@typescript-eslint",
+    "import",
+    "jest",
+    "react",
+    "sort-exports",
+    "typescript-sort-keys"
+  ],
   "root": true,
   "rules": {
     "@typescript-eslint/explicit-function-return-type": "off",
